@@ -4,7 +4,7 @@ class Complex{
     public  Complex(int r,int i){
         real=r;
         image=i;
-    }
+    } 
 }
 
 class Main{
