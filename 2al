@@ -1,0 +1,19 @@
+Algorithm: Addition of Two Matrices
+
+Step 1: Start
+
+Step 2: Read the number of rows and columns
+
+Step 3: Declare three matrices a[][], b[][] and sum[][]
+
+Step 4: Read the elements of the first matrix using nested for loops
+
+Step 5: Read the elements of the second matrix using nested for loops
+
+Step 6: Using nested for loops, add corresponding elements of matrices
+
+        sum[i][j] = a[i][j] + b[i][j]
+
+Step 7: Display the resultant matrix using nested for loops
+
+Step 8: Stop
