@@ -1,0 +1,20 @@
+Algorithm: Linear Search Using Array
+
+Step 1: Start
+
+Step 2: Read the size of the array and store it in variable range
+
+Step 3: Create an integer array arr[] of size range
+
+Step 4: Read the elements of the array using a for loop
+
+Step 5: Read the number to be searched and store it in variable number
+
+Step 6: Traverse the array using a for loop from i = 0 to range - 1
+
+Step 7: Compare arr[i] with number
+
+Step 8: If arr[i] == number,
+        display the position of the element as i + 1
+
+Step 9: Stop
