@@ -1,23 +1,24 @@
-import java.util.Scanner;
-class arr{
-    public static void main(String[] args){
-        Scanner sc= new Scanner(System.in);
-        int arr[],found=0;
-        System.out.println("Enter the size of the array here: ");
-        int size=sc.nextInt();
-        arr=new int[size];
-        System.out.println("Enter the "+size +"elements ");
-        for(int i=0; i<size; i++){
+import java.util.*;
+class Main{
+    public static  void main(String[] args){
+        System.out.println("Enter the size of the array");
+        Scanner sc = new Scanner(System.in);
+        int range=sc.nextInt();
+        int arr[]=new int[range];
+        System.out.println("Enter the elements to arrya here : ");
+        for(int i=0;i<range;i++){
             arr[i]=sc.nextInt();
+            
         }
-        System.out.println("Enter the elemnt to check : ");
-        int num=sc.nextInt();
-        for(int i=0;i<size;i++){
-            if ( arr[i] == num){
-                System.out.println("The number foudn at the "+(i+1)+"th posision");
-                break;
-            }            }
+        System.out.println("Enter the number to search:");
+        int number =sc.nextInt();
+        for(int i=0;i<range;i++){
+            if(arr[i]==number){
+                System.out.println("the number found at the posotion "+(i+1));
+            }
+
         }
+        
         
     }
 }
